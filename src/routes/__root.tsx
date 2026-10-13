@@ -78,10 +78,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Blank Website" },
-      { name: "description", content: "A blank website." },
-      { property: "og:title", content: "Blank Website" },
-      { property: "og:description", content: "A blank website." },
+      { title: "TrainRadar" },
+      { name: "description", content: "Tåg i realtid på en interaktiv 3D-karta." },
+      { property: "og:title", content: "TrainRadar" },
+      { property: "og:description", content: "Tåg i realtid på en interaktiv 3D-karta." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -101,7 +101,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="sv" className="dark">
       <head>
         <HeadContent />
       </head>

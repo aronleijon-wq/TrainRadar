@@ -142,3 +142,27 @@
     color: var(--color-foreground);
   }
 }
+
+/* TrainRadar map hover popup */
+.train-popup .maplibregl-popup-content {
+  background: rgb(2 6 23 / 0.92);
+  color: #f1f5f9;
+  border: 1px solid rgb(255 255 255 / 0.1);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.8125rem;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 0.5);
+}
+.train-popup .maplibregl-popup-tip {
+  display: none;
+}
+.maplibregl-ctrl-group {
+  background: rgb(2 6 23 / 0.85) !important;
+  border: 1px solid rgb(255 255 255 / 0.1);
+}
+.maplibregl-ctrl-group button + button {
+  border-top-color: rgb(255 255 255 / 0.1) !important;
+}
+.maplibregl-ctrl-group .maplibregl-ctrl-icon {
+  filter: invert(1);
+}

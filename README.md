@@ -18,10 +18,10 @@ This project is connected to [Lovable](https://lovable.dev/projects/86959f13-7ad
 
 ## Datakällor
 
-| Land | Källa | Nyckel |
-| --- | --- | --- |
-| 🇫🇮 Finland | [Fintraffic Digitraffic](https://www.digitraffic.fi/en/railway-traffic/) | Ingen, fungerar direkt |
-| 🇸🇪 Sverige | [Trafikverket öppet API](https://data.trafikverket.se) (TrainPosition + TrainAnnouncement) | Gratis, se nedan |
+| Land       | Källa                                                                                      | Nyckel                 |
+| ---------- | ------------------------------------------------------------------------------------------ | ---------------------- |
+| 🇫🇮 Finland | [Fintraffic Digitraffic](https://www.digitraffic.fi/en/railway-traffic/)                   | Ingen, fungerar direkt |
+| 🇸🇪 Sverige | [Trafikverket öppet API](https://data.trafikverket.se) (TrainPosition + TrainAnnouncement) | Gratis, se nedan       |
 
 ### Svenska tåg: Trafikverket-nyckel
 
